@@ -1,0 +1,15 @@
+version: '3'
+
+volumes:
+  # Insert your volume here
+  log_volume:
+
+services:
+  bot:
+    image: Dockerfile
+    container_name: bot_container
+    volumes:
+      - log_volume:/app/logs:rw
+    command: python main.py
+
+    # Other configurations
