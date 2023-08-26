@@ -25,4 +25,4 @@ First install cookiecutter:<br>
 - `pip install cookiecutter`<br>
 
 Then run cookie on this repo:<br>
-- `cookie https://github.com/erfan-rfmhr/bot-with-cookies.git`
+- `cookiecutter https://github.com/erfan-rfmhr/bot-with-cookies.git`
