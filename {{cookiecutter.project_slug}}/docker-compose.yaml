@@ -6,7 +6,9 @@ volumes:
 
 services:
   bot:
-    image: Dockerfile
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: bot_container
     volumes:
       - log_volume:/app/logs:rw
