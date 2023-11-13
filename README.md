@@ -1,9 +1,12 @@
 # Cookie Python Bot
-Structure your python bot project with cookie! <a href="https://github.com/cookiecutter">Cookiecutter<a> is a python package that helps you structure and
-organize your project easy and fast. Check it out on the official <a href="https://cookiecutter.readthedocs.io/en/stable/">documentation<a>.
-<hr>
+
+Structure your python bot project with cookie! [Cookiecutter](https://github.com/cookiecutter) is a python package that helps you structure and
+organize your project easy and fast. Check it out on the official [documentation](https://cookiecutter.readthedocs.io/en/stable/).
+
+---
 
 ## Tree
+
 This will be your project folder after you run cookie:
 
     ├───config
@@ -23,11 +26,15 @@ This will be your project folder after you run cookie:
         └───handlers
             ├───admin
             └───core
-<hr>
+
+---
 
 ## How to use?
-First install cookiecutter:<br>
-- `pip install cookiecutter`<br>
 
-Then run cookie on this repo:<br>
+First install cookiecutter:
+
+- `pip install cookiecutter`
+
+Then run cookie on this repo:
+
 - `cookiecutter https://github.com/erfan-rfmhr/bot-with-cookies.git`
