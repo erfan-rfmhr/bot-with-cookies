@@ -4,6 +4,12 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: bot_container
+    env_file:
+      - ./config/.env
+    environment:
+      - BOT_TOKEN=token
+      - DATABASE_URL=database_url
+      - ADMINS=[admins]
     volumes:
       - .:/app
     command: python main.py
